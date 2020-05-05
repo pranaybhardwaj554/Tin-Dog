@@ -1,0 +1,143 @@
+.container-fluid{
+  padding:3% 15%;
+}
+body{
+  font-family: 'Montserrat', sans-serif;
+}
+h1{
+  font-family: 'Montserrat', sans-serif;
+  font-weight:900;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+#title{
+  color: white;
+  background-color: #ff4c68;
+
+}
+
+.navbar{
+  padding: 0 0 2.5rem;
+}
+.navbar-brand{
+  font-family: "Ubuntu";
+  font-size: 3.5rem;
+  font-weight: bold;
+}
+
+.nav-item{
+  padding: 0 18px;
+}
+.nav-link{
+  font-size: 1.25rem;
+}
+.down{
+  margin: 5% 3% 5% 0;
+}
+#features{
+  background-color: white;
+  position: relative;
+  z-index: 1;
+}
+.title-image{
+  position: absolute;
+  transform: rotate(25deg);
+  height:500px;
+  right: 28%;
+}
+.container-fluid{
+  padding:3% 15% 3%;
+}
+.icons{
+  padding-bottom: 18px;
+  color:#ef8172;
+ }
+
+ .icons:hover{
+   color:#ff4c68;
+ }
+ h2{
+   font-family: 'Montserrat', sans-serif;
+   font-weight: 700;
+   font-size: 3rem;
+   line-height: 1.5;
+ }
+ h3{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  font-size: 1.5rem;
+ }
+ .features{
+   padding-top: 50px;
+   text-align: center;
+}
+p{
+  color:#8f8f8f ;
+}
+.col-lg-4{
+  padding: 3%;
+}
+/*Testimonial section*990 588*/
+#testimonials{
+  text-align: center;
+  background-color: #ef8172;
+  color: #fff;
+}
+.testimonial-image{
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+#press{
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+}
+.logo{
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+.carousel-item{
+  padding: 7% 15%;
+}
+/*Pricing*/
+#pricing{
+  text-align: center;
+  padding:100px 100px 100apx 100px;
+}
+.pricing-column {
+  padding: 3% 2%;
+}
+@media (max-width:1028px){
+  #title{
+    text-align: center;
+  }
+  .title-image{
+    position:static;
+    transform:rotate(0);
+  }
+}
+/*CTASECTION*/
+#cta{
+  background-color: #ff4c68;
+  color:#fff;
+  text-align: center;
+  padding: 10% 12% 8% 12%;
+}
+h3{
+  font-family: 'Montserrat', sans-serif;
+  font-weight:900;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  text-align: center;
+  padding-left: 1.5% ;
+  padding-right: 1.5%;
+}
+/*contact-*/
+#footer{
+  text-align: center;
+  padding-bottom: 3%;
+}
+.n{
+  padding: 7% 1% 2% 1%;
+}
